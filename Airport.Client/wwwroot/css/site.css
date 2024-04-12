@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-top: 130px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#container {
+    height: 700px;
+    background-image: url('../images/backgroundImg.svg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+}
+
+#flightBoard {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid black;
+
+}
+
+    #flightBoard th {
+        color: white;
+        background-color: #333;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    #flightBoard td {
+        border: 2px solid black;
+        align-content:center;
+    }
